@@ -29,9 +29,8 @@ const Login = () => {
             <Flex className={" mb-8 gap-x-10 items-center"}>
               <InputField
                 label={"Email"}
-                placeholder={"user@domain.com"}
+                placeholder={"user email"}
                 type={"email"}
-                id={"email"}
                 className={"border-b border-[#F0F0F0] w-[500px]"}
                 inputClassName={"mt-3 mb-4"}
                 labelClassName={"text-primaryColor font-bold text-base"}
@@ -40,7 +39,6 @@ const Login = () => {
                 label={"Password"}
                 placeholder={"give user password"}
                 type={"password"}
-                id={"pwd"}
                 className={"border-b border-[#F0F0F0] w-[500px]"}
                 inputClassName={"mt-3 mb-4"}
                 labelClassName={"text-primaryColor font-bold text-base"}

@@ -10,7 +10,6 @@ const ContactForm = () => {
           label={"Name"}
           placeholder={"Your name here"}
           type={"text"}
-          id={"full name"}
           className={"border-b border-[#F0F0F0] w-[750px]"}
           inputClassName={"mt-3 mb-4"}
           labelClassName={"text-primaryColor font-bold text-base"}
@@ -19,7 +18,6 @@ const ContactForm = () => {
           label={"Email"}
           placeholder={"Your email here"}
           type={"email"}
-          id={"email"}
           className={"border-b border-[#F0F0F0] w-[750px]"}
           inputClassName={"mt-3 mb-4"}
           labelClassName={"text-primaryColor font-bold text-base mt-6"}
@@ -28,7 +26,6 @@ const ContactForm = () => {
           label={"Massage"}
           placeholder={"Massage type here"}
           type={"text"}
-          id={"message"}
           className={"border-b border-[#F0F0F0] w-[750px]"}
           inputClassName={"mt-3 mb-4"}
           labelClassName={"text-primaryColor font-bold text-base mt-6"}
